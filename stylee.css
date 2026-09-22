@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 200, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.texto {
+    background-color: rgb(225, 0, 255);
+    padding: 20px;
+}
+
+.foto {
+    background-color: rgb(0, 200, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.vacaciones {
+    background-color: rgb(191, 0, 255);
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
